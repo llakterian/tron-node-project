@@ -101,7 +101,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Lakterian - @llakterian<br>
+On X: @llakterian<br>
 Project Link: https://github.com/llakterian/tron-node-project
 
 ## Acknowledgments
