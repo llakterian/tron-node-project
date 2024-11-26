@@ -73,7 +73,7 @@ tron_p/
 Start the application:
 
 ```bash
-node index
+node index.js
 ```
 
 ## 🧪 Testing
