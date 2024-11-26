@@ -1,32 +1,29 @@
 # TRON Node Project 🌟
 
-## Overview
+## ⚠️ Educational Purpose
+This project is designed for educational and learning purposes only. It demonstrates basic TRON blockchain interactions and should not be used in production environments without proper security audits and risk assessments.
 
-A robust Node.js-based project for seamless interaction with the TRON blockchain network. This toolkit provides comprehensive solutions for TRON blockchain operations, smart contract interactions, and wallet management.
+## Overview
+A Node.js-based project demonstrating TRON blockchain network interactions. This toolkit showcases fundamental TRON blockchain operations, smart contract interactions, and wallet management concepts.
 
 ## ✨ Key Features
-
-- TRON Network Integration
-- Smart Contract Deployment & Interaction
-- Wallet Management
-- Transaction Handling
-- TRC20 Token Support
+- Basic TRON Network Integration
+- Transaction Handling Examples
+- Environment Configuration Patterns
+- Security Practice Demonstrations
 
 ## 🚀 Prerequisites
-
 - Node.js v18.x or higher
 - npm (Node Package Manager)
 - TRON Development Environment
 - TronLink or similar TRON wallet for testing
+- TRON Grid API Key
 
 ## 🛠 Installation
-
 1. Clone the repository
-
 ```bash
 git clone https://github.com/llakterian/tron-node-project.git
 ```
-
 2. Install dependencies
 
 ```bash
@@ -47,7 +44,7 @@ Create a .env file in the root directory with the following variables:
 PRIVATE_KEY=your_tron_wallet_private_key
 FROM_ADDRESS=origin_tron_address
 RECIPIENT_ADDRESSES=recipient_tron_address1, recipient_tron_address2, recipient_tron_address3, 
-TRX_AMOUNT=100
+TRX_AMOUNT=1000000
 USDT_AMOUNT=10
 NETWORK_URL=https://api.shasta.trongrid.io
 TRON_API_KEY=your_tron_api_key
