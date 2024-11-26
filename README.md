@@ -44,9 +44,13 @@ cp .env.example .env
 Create a .env file in the root directory with the following variables:
 
 ```bash
-TRON_NETWORK=mainnet/testnet
-PRIVATE_KEY=your_private_key
-API_KEY=your_api_key
+PRIVATE_KEY=your_tron_wallet_private_key
+FROM_ADDRESS=origin_tron_address
+RECIPIENT_ADDRESSES=recipient_tron_address1, recipient_tron_address2, recipient_tron_address3, 
+TRX_AMOUNT=100
+USDT_AMOUNT=10
+NETWORK_URL=https://api.shasta.trongrid.io
+TRON_API_KEY=your_tron_api_key
 ```
 
 ## 🚀 Project Structure
